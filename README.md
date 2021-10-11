@@ -49,7 +49,6 @@ Android滑块拼图验证码控件
 ## Usage
 ### 1.在app的build.gradle添加依赖
 [![](https://jitpack.io/v/hutianfeng/SeekBarCaptcha.svg)](https://jitpack.io/#hutianfeng/SeekBarCaptcha)
-
 ```Gradle
 compile 'com.github.hutianfeng:SeekBarCaptcha:1.1.3'
 ```
