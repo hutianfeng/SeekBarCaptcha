@@ -47,12 +47,13 @@ Android滑块拼图验证码控件
 
 ## Usage
 ### 1.在app的build.gradle添加依赖
+the lasted version
 ```Groovy
-compile 'com.luozm.captcha:captcha:1.1.2'
+compile 'com.hutianfeng.captcha:captcha:1.1.3'
 ```
 ### 2.将Captcha添加至布局
 ```xml
-<com.luozm.captcha.Captcha
+<com.hutianfeng.captcha.Captcha
         android:id="@+id/captCha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -155,7 +156,7 @@ captCha.setCaptchaStrategy(new XXXCaptchaStrategy(context));
 ### 5.(可选)自定义滑块条
    与Seekbar自定义样式一样
 ```xml
-<com.luozm.captcha.Captcha
+<com.hutianfeng.captcha.Captcha
         android:id="@+id/captCha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
