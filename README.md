@@ -49,7 +49,7 @@ Android滑块拼图验证码控件
 ### 1.在app的build.gradle添加依赖
 the lasted version
 ```Groovy
-compile 'com.hutianfeng.captcha:captcha:1.1.3'
+compile 'com.github.hutianfeng:SeekBarCaptcha:1.1.3'
 ```
 ### 2.将Captcha添加至布局
 ```xml
