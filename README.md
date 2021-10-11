@@ -1,4 +1,4 @@
-# Captcha
+# SeekBarCaptcha
 Android滑块拼图验证码控件
 
 <img src="https://user-images.githubusercontent.com/10016338/136754935-dde00b6a-aadc-4a02-b5fc-4e3ac0f1a032.gif" width="180" height="320" />
@@ -169,10 +169,7 @@ captcha.setSeekBarStyle(R.drawable.po_seekbar,R.drawable.thumb);
 ```
 
 
-## 博文地址
-
+## 参考
 http://blog.csdn.net/sdfsdfdfa/article/details/79120665
 
-## 使用者须知
-若使用过程中发现bug或想提出修改建议，请Issues留言或者自行修复并提交Pull request。我会在最快时间内处理。万分感谢!
 
