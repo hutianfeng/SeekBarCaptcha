@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.support.v7.widget.AppCompatSeekBar;
 import android.util.AttributeSet;
 
 /**
@@ -11,7 +12,7 @@ import android.util.AttributeSet;
  * @Author hutianfeng
  * @Date 10/11/21 3:07 PM
 */
-class TextSeekbar extends android.support.v7.widget.AppCompatSeekBar {
+class TextSeekbar extends AppCompatSeekBar {
 
 
     private Paint textPaint;
