@@ -13,15 +13,15 @@ Android滑块拼图验证码控件
 ## Method
 |方法名|描述|版本限制
 |---|---|---|
-|setMode(int mode)| 设置验证模式（默认为MODE_BAR）|1.0.8开始
-|setMaxFailedCount(int count)| 设置最大验证失败次数（默认为5次）|1.0.8开始
-|setBitmap(Bitmap bitmap)| 设置图片|1.0.8开始
-|setBitmap(int drawableId)| 设置图片|1.1.1开始
-|setBitmap(String imgUrl)| 设置图片|1.1.2开始
-|setBlockSize(int blockSize)| 设置滑块图片大小，单位px（默认50dp）|1.0.8开始
-|setCaptchaStrategy(CaptchaStrategy strategy)|设置验证策略 |1.0.5开始
-|setSeekBarStyle(int progressDrawable, int thumbDrawable)| 设置滑动条样式 |1.0.5开始
-|setCaptchaListener(CaptchaListener listener)| 设置验证回调|1.0.0开始
+|setMode(int mode)| 设置验证模式（默认为MODE_BAR）|1.1.3开始
+|setMaxFailedCount(int count)| 设置最大验证失败次数（默认为5次）|1.1.3开始
+|setBitmap(Bitmap bitmap)| 设置图片|1.1.3开始
+|setBitmap(int drawableId)| 设置图片|1.1.3开始
+|setBitmap(String imgUrl)| 设置图片|1.1.3开始
+|setBlockSize(int blockSize)| 设置滑块图片大小，单位px（默认50dp）|1.1.3开始
+|setCaptchaStrategy(CaptchaStrategy strategy)|设置验证策略 |1.1.3开始
+|setSeekBarStyle(int progressDrawable, int thumbDrawable)| 设置滑动条样式 |1.1.3开始
+|setCaptchaListener(CaptchaListener listener)| 设置验证回调|1.1.3开始
 
 
 ## Attributes（captcha布局文件中调用）
@@ -37,12 +37,14 @@ Android滑块拼图验证码控件
 ## Version Update
 |版本号|描述
 |---|---
-|v1.0.5| 可用基本功能
-|v1.0.8| 添加可定制属性，查看Method
-|v1.0.9| 对回调CaptchaListener返回参数修改，以让使用者自定义图片底部阴影文本
-|v1.1.0| 修复重写CaptchaStrategy类编译时报错
-|v1.1.1| 1.优化体验 2.添加刷新按钮，取消原来验证失败重置的设定，改为用刷新按钮重置
-|v1.1.2| 添加支持网络图片
+|v1.1.3| 可用基本功能
+|v1.1.3| 添加可定制属性，查看Method
+|v1.1.3| 对回调CaptchaListener返回参数修改，以让使用者自定义图片底部阴影文本
+|v1.1.3| 修复重写CaptchaStrategy类编译时报错
+|v1.1.3| 1.优化体验 2.添加刷新按钮，取消原来验证失败重置的设定，改为用刷新按钮重置
+|v1.1.3| 添加支持网络图片
+
+[![](https://jitpack.io/v/hutianfeng/SeekBarCaptcha.svg)](https://jitpack.io/#hutianfeng/SeekBarCaptcha)
 
 
 ## Usage
