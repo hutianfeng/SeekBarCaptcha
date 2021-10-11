@@ -44,15 +44,17 @@ Android滑块拼图验证码控件
 |v1.1.3| 1.优化体验 2.添加刷新按钮，取消原来验证失败重置的设定，改为用刷新按钮重置
 |v1.1.3| 添加支持网络图片
 
-[![](https://jitpack.io/v/hutianfeng/SeekBarCaptcha.svg)](https://jitpack.io/#hutianfeng/SeekBarCaptcha)
 
 
 ## Usage
 ### 1.在app的build.gradle添加依赖
 the lasted version
-```Groovy
+```Gradle
+[![](https://jitpack.io/v/hutianfeng/SeekBarCaptcha.svg)](https://jitpack.io/#hutianfeng/SeekBarCaptcha)
+
 compile 'com.github.hutianfeng:SeekBarCaptcha:1.1.3'
 ```
+
 ### 2.将Captcha添加至布局
 ```xml
 <com.hutianfeng.captcha.Captcha
